@@ -1,0 +1,44 @@
+html, body 
+{ background-image: url("https://img.dentistryiq.com/files/base/ebm/diq/image/2020/02/16x9/positive_attitude.5e4c525d29f70.png?auto=format&w=720");
+}
+em{
+  text-emphasis: filled triangle;
+  font-style: bold;
+  font-family: arial;
+  color: black;
+}
+.emphasis1{
+  text-emphasis: filled circle;
+  text-emphasis-position: under;
+}
+.emphasis2{
+  text-emphasis: filled triangle orange;
+}
+.emphasis3{
+  text-emphasis: open sesame;
+  text-emphasis-position: under;
+}
+.emphasis4{
+  text-emphasis: filled double-circle deeppink;
+}
+
+
+p{
+  color: maroon;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 300;
+  margin: 30px;
+}
+html{
+  block-size: 100%;
+  inline-size: 100%;
+}
+body{
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: cursive;
+}
